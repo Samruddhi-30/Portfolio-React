@@ -1,0 +1,18 @@
+.container{
+    text-align: center;
+    justify-content: center;
+    padding-top: 50px;
+    padding: 20px;
+}
+
+img{
+    border-radius: 50pc;
+}
+
+/*
+.myClass{
+     color: palevioletred /*#e6ad23 */ 
+
+/*
+.lead{
+    color: palevioletred /*wheat */  
