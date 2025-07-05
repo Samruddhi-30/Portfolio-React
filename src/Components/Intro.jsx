@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../Styles/Intro.module.css'
-import profileImg from '../assets/profp.jpeg'
+import profileImg from '../assets/sam3.jpg'
 
 
 function Intro(){

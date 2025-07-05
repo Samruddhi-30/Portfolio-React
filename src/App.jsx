@@ -8,6 +8,8 @@ import Education from './Components/Education'
 import Skills from './Components/Skills'
 //import ModalTutorial from './Components/Modal'
 import Experience from './Components/Experience'
+import Projects from './Components/Projects'
+
 
 
 
@@ -15,18 +17,20 @@ function App() {
 
 
   return (
-    <>
+   <>
     <Navbar />
     <Intro />
     <Education />
     <Skills />
     <Experience />
+    <Projects />
 
+</>
    
 
 
       
-    </>
+    
   )
 }
 

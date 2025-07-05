@@ -3,6 +3,8 @@ import styles from "../Styles/Experience.module.css";
 
 function Experience() {
   return (
+        <div className="container px-2 py-2 my-3" >
+      <h2 className="pb-4 border-bottom size-large"><strong>EXPERIENCE</strong></h2>
     <div className={`p-3 mx-3 my-3 text-center ${styles.exp} `}>
       <div className="container py-3">
         <h1>AI-ML Intern</h1>
@@ -26,6 +28,7 @@ function Experience() {
           Detailed Info
         </button>
       </div>
+    </div>
     </div>
   );
 }
