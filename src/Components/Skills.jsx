@@ -7,8 +7,8 @@ function Skills() {
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-4">
         <div className="col">
           <div
-            className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url('unsplash-photo-1.jpg')" }}
+            className="card card-cover h-100 overflow-hidden   rounded-4 shadow-lg"
+            style={{ backgroundColor : "#fcd357" }}
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1" >
               <h3 className="pt-4 mt-2 mb-5 display-6 lh-1 fw-bold">
@@ -20,8 +20,8 @@ function Skills() {
         <div className="col">
            
           <div
-            className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url('unsplash-photo-2.jpg')" }}
+            className="card card-cover h-100 overflow-hidden   rounded-4 shadow-lg"
+            style={{ backgroundColor : "#fcd357" }}
           >
              
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
@@ -35,8 +35,8 @@ function Skills() {
         <div className="col">
            
           <div
-            className="card card-cover h-100 overflow-hidden text-bg-dark rounded-4 shadow-lg"
-            style={{ backgroundImage: "url('unsplash-photo-3.jpg')" }}
+            className="card card-cover h-100 overflow-hidden   rounded-4 shadow-lg"
+            style={{ backgroundColor : "#fcd357", color:"white"}}
           >
              
             <div className="d-flex flex-column h-100 p-5 pb-3 text-shadow-1">

@@ -7,6 +7,7 @@ import Intro from './Components/Intro'
 import Education from './Components/Education'
 import Skills from './Components/Skills'
 //import ModalTutorial from './Components/Modal'
+import Experience from './Components/Experience'
 
 
 
@@ -19,6 +20,7 @@ function App() {
     <Intro />
     <Education />
     <Skills />
+    <Experience />
 
    
 

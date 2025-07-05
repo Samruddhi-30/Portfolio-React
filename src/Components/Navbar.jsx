@@ -15,6 +15,7 @@ function Navbar(){
         <a className="nav-link active" aria-current="page" href="#">Home</a>
         <a className="nav-link" href="#">Projects</a>
         <a className="nav-link" href="#">Skills</a>
+        <a className="nav-link" href="https://github.com/Samruddhi-30?tab=repositories">Github</a>
 
       </div>
     </div>
