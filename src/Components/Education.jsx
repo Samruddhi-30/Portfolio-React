@@ -4,11 +4,11 @@ import styles from "../Styles/Education.module.css"
 function Education() {
   return (
     <div
-      class="container px-4 py-10"
+      className="container px-4 py-10"
       id="hanging-icons"
       style={{ marginTop: "40px", paddingTop: "50px" }}
     >
-      <h2 class="pb-3 border-bottom">
+      <h2 className="pb-3 border-bottom">
         <strong>EDUCATION </strong>
       </h2>
       <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-4 py-5">

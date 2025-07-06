@@ -13,11 +13,11 @@ function Skills() {
 
 
   return (
-    <div className="container px-2 py-1" id="custom-cards">
+    <div className="container px-4 py-10" id="custom-cards">
       <h2 className="pb-4 border-bottom size-large">
         <strong>SKILLS</strong>
       </h2>
-      <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-3 py-3">
+      <div className="row row-cols-1 row-cols-lg-3 align-items-stretch g-3 py-5">
        
         <Pro />
 

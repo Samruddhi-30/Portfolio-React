@@ -1,15 +1,15 @@
 import React from 'react'
 import styles from '../Styles/Intro.module.css'
-import profileImg from '../assets/sam3.jpg'
+import profileImg from '../assets/samm.jpg'
 
 
 function Intro(){
     return(
     <div className= {`container ${styles.container}`}> 
       <div className="row flex-lg-row-reverse align-items-center g-5 py-5"> 
-      <div className="col-10 col-sm-8 col-lg-6"> 
+      <div className="col-10 col-sm-8 col-lg-6 px-3"> 
         <img src={profileImg}
-         alt="self image" className={styles.img} loading="lazy" height= {400} width={400}/> 
+         alt="self image" className={styles.img} loading="lazy" /> 
       </div> 
       
       <div className="col-lg-6"> 

@@ -26,7 +26,7 @@ function Experience() {
             modeling. Collaborated with cross-functional teams to implement and
             test document generation workflows in a production-like environment.
             
-            <ul>
+            
               
                 🎖️Automated compliance document generation using ML
               
@@ -36,7 +36,7 @@ function Experience() {
               📜Real-world ML problem-solving.<br/> 
               🎖️Data handling and model optimization <br/>
               🎖️Team collaboration and agile workflows<br/>
-            </ul>
+            
           </p>
         </div>
       </div>

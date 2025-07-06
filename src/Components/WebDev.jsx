@@ -21,7 +21,7 @@ export default function WebDev() {
       <button
         onClick={modalOperation}
         type="button"
-        class="btn btn-light"
+        className="btn btn-light"
         style={{
           margin: "10px",
           padding: "10px",
