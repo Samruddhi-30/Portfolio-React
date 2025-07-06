@@ -1,10 +1,9 @@
-import React from "react";
-import styles from "../Styles/LangModal.module.css";
+import React from 'react'
 
-export default function LangModal(props) {
-  return (
-    <div
-      className="modal modal-sheet d-block p-4 md-5"
+export default function DevModal(props){
+    return(
+            <div
+      className="modal modal-sheet d-block p-3 md-4"
 style={{
   
   position: 'fixed',
@@ -30,35 +29,33 @@ style={{
           
           <div class="modal-header border-bottom-0" >
             
-            <h3 class="modal-title " style={{ color: "chocolate"}}>Programming Languages 💻</h3>
+            <h3 class="modal-title " style={{ color: "chocolate"}}>Web Development🌐</h3>
             <button
               type="button"
               class="btn-close"
               data-bs-dismiss="modal"
               aria-label="Close"
               onClick={()=>{
-                props.op(true);
+                props.oper(true);
               }}
             ></button>
           </div>
           <div class="modal-body py-0" style={{ color: "chocolate"}}>
             <strong>
             <ul>
-              <li>Python</li>
-              
-              <li>C++</li>
-              <li>Java(Intermediate)</li>
+              <li>HTML5</li>             
+              <li>CSS , Bootstrap , Tailwind CSS</li>
               <li>JavaScript</li>
               <li>TypeScript</li>
+              <li>React</li>
             </ul>
            <hr/>
-            <p> 🏆 Python Completion Course Certificate by Infosys</p>
-            <p> 🏆 C++ Completion Course Certificate by IIT</p>
-            <p> 🏆 Java Completion Course Certificate by IIT</p>
+            <p> 🏆 Full Stack Web development bootcamp by Udemy</p>
+
               </strong>
            </div>
         </div>
       </div>
     </div>
-  );
+    )
 }

@@ -17,7 +17,7 @@ export default function Pro(){
           >
             <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
               <h3 className="pt-3 mt-2 mb-3 display-5 lh-1 fw-bold">
-                Programming Languages 
+                Programming Languages 💻
               </h3>
             </div>
             <button

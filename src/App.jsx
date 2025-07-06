@@ -9,6 +9,8 @@ import Skills from './Components/Skills'
 //import ModalTutorial from './Components/Modal'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
+import MyFooter from './Components/MyFooter'
+
 
 
 
@@ -24,6 +26,7 @@ function App() {
     <Skills />
     <Experience />
     <Projects />
+    <MyFooter />
 
 </>
    
