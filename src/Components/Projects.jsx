@@ -1,3 +1,4 @@
+import { Bold } from "lucide-react";
 import React from "react";
 
 export default function Projects() {
@@ -122,9 +123,9 @@ export default function Projects() {
             <use xlinkHref="#geo-fill"></use>
           </svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Loading...</h3>
-            <p>Placehoder</p>
-          </div>
+            <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">MentalWell: AI Mental Health Assistant with Data Privacy</h3>
+            <p><strong>Description:</strong> An AI-powered mental health chatbot providing empathetic support with emotion detection and sentiment analysis. Ensures complete privacy through local processing, encrypted storage, and federated learning.
+<strong>Tech Used:</strong>Python, Machine Learning (NLP, emotion classification), Flask, encryption, transformer models.</p></div>
         </div>
         <div className="col d-flex align-items-start">
           <svg
@@ -136,9 +137,9 @@ export default function Projects() {
             <use xlinkHref="#tools"></use>
           </svg>
           <div>
-            <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Loading...</h3>
-            <p>Placeholder</p>
-          </div>
+            <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">Web Scraper-Product Price Tracker</h3>
+            <p><strong>Description:</strong> Automated e-commerce price monitoring tool that extracts real-time product data (title, price, availability) with 95%+ accuracy. Stores data in CSV format for historical trend analysis and price comparison.
+<strong>Tech Used:</strong> Python, BeautifulSoup, Pandas, CSV.</p> </div>
         </div>
       </div>
     </div>

@@ -2,29 +2,23 @@ import React , {useState} from 'react';
 
 export default function AimlModal(props){
     return(
-        <div
-      className="modal modal-sheet d-block p-4 md-5"
-style={{
-  
-  position: 'fixed',
-  // top: '100px',
-  // left: '420px',
-  top: '50%',           // Center vertically
-  left: '50%',          // Center horizontally
-  transform: 'translate(-50%, -50%)',
-  zIndex: 1050,
-  overflowY : "hidden",
-  height: 'auto',
-  width: 'auto',
-  backgroundColor:"#fff9c4",
-  borderRadius:'10px'
-}}
-
-
-    >
-      
-      <div class="modal-dialog" style={{backgroundColor:"#fff9c4"}}>
-        
+     <div
+      className=" modal modal-sheet d-block" //p-4 md-5 not needed but changes styling
+      //
+style={{  
+ position: 'fixed',
+ // top: '100px',
+ // left: '420px',
+ top: '50%',           // Center vertically
+ left: '50%',          // Center horizontally
+ transform: 'translate(-50%, -50%)',
+ zIndex: 1050,
+ overflowY : "hidden",
+ height: 'auto',
+ width: 'auto',
+ backgroundColor:"#fff9c4",
+ borderRadius:'10px'
+}}>       
         <div class="modal-content rounded-4 shadow" style={{backgroundColor:"#fff9c4"}}>
           
           <div class="modal-header border-bottom-0" >
@@ -59,6 +53,6 @@ style={{
            </div>
         </div>
       </div>
-    </div>
+   
     )
 }

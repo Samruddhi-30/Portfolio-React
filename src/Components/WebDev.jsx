@@ -9,16 +9,16 @@ export default function WebDev() {
   return (
     <div className="col">
       <div
-        className="card card-cover h-100 overflow-hidden   rounded-4 shadow-lg"
+        className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
         style={{ backgroundColor: "#fcd357" , cursor:"pointer"}} onClick={modalOperation}
       >
         <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-          <h3 className="pt-2 mt-2 mb-5 display-6 lh-1 fw-bold">
+          <h3 className="pt-4 mt-2 mb-5 display-6 lh-1 fw-bold">
             Web Development🌐
           </h3>
         </div>
       
-      <button
+      {/* <button
         onClick={modalOperation}
         type="button"
         className="btn btn-light"
@@ -30,7 +30,7 @@ export default function WebDev() {
         }}
       >
         Click
-      </button>
+      </button> */}
 </div>
       {showModal && <DevModal oper={modalOperation} />}
     </div>

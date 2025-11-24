@@ -3,7 +3,7 @@ import React from 'react'
 export default function DevModal(props){
     return(
             <div
-      className="modal modal-sheet d-block p-3 md-4"
+      className="modal modal-sheet d-block "  //p-3 md-5
 style={{
   
   position: 'fixed',
@@ -19,14 +19,8 @@ style={{
   backgroundColor:"#fff9c4",
   borderRadius:'10px'
 }}
-
-
-    >
-      
-      <div class="modal-dialog" style={{backgroundColor:"#fff9c4"}}>
-        
-        <div class="modal-content rounded-4 shadow" style={{backgroundColor:"#fff9c4"}}>
-          
+>  
+        <div class="modal-content rounded-4 shadow" style={{backgroundColor:"#fff9c4"}}>  
           <div class="modal-header border-bottom-0" >
             
             <h3 class="modal-title " style={{ color: "chocolate"}}>Web Development🌐</h3>
@@ -56,6 +50,5 @@ style={{
            </div>
         </div>
       </div>
-    </div>
     )
 }

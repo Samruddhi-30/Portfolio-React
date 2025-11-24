@@ -4,7 +4,7 @@ import styles from "../Styles/LangModal.module.css";
 export default function LangModal(props) {
   return (
     <div
-      className="modal modal-sheet d-block p-4 md-5"
+      className="modal modal-sheet d-block " //p-4 md-5 
 style={{
   
   position: 'fixed',
@@ -22,10 +22,7 @@ style={{
 }}
 
 
-    >
-      
-      <div class="modal-dialog" style={{backgroundColor:"#fff9c4"}}>
-        
+    >  
         <div class="modal-content rounded-4 shadow" style={{backgroundColor:"#fff9c4"}}>
           
           <div class="modal-header border-bottom-0" >
@@ -59,6 +56,5 @@ style={{
            </div>
         </div>
       </div>
-    </div>
   );
 }

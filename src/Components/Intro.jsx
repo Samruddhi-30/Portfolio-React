@@ -13,17 +13,15 @@ function Intro(){
       </div> 
       
       <div className="col-lg-6"> 
-        <h1 className={`display-5 fw-bold  lh-1 mb-3 ${styles.myClass}`}>SAMRUDDHI KADAM</h1> 
+        <h1 className={`display-5 fw-bold  lh-1 mb-3 ${styles.myClass}`}>Hi, I'm Samruddhi! ✨</h1> 
          <p className={`lead ${styles.lead}`}>
-          <strong>  I’m a motivated final year IT engineering student with a foundation in web development technologies.
-             I have learnt essential subjects like Data structures and Algorithm , OOP , Machine Learning in 
-             my academics. I also have knowledge about databases , Artificial Intelligence , User Experience 
-             development and software development process due to my degree . I am currently seeking an 
-             internship to apply my skills, contribute to real-world projects, and further increase my 
-             knowledge  in the field of web development and Information Technology.
+          <strong>I started my IT engineering journey curious about how websites work. Today, I'm building them.
+As a final-year student, I've mastered the fundamentals—data structures, OOP, databases, and algorithms. But I didn't stop at theory. I've explored machine learning, AI, UX design, and the complete software development lifecycle.
+Now, I'm ready to take the next step: contributing to real projects, solving real problems, and learning from experienced teams.
+Let's build something together. I'm actively seeking job opportunities in web development, Machine Learning and IT.
            </strong> 
          </p> 
-            
+        {/* <button >Download Resume</button>   */}
         </div> 
         </div>
 
