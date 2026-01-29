@@ -10,14 +10,10 @@ import Skills from './Components/Skills'
 import Experience from './Components/Experience'
 import Projects from './Components/Projects'
 import MyFooter from './Components/MyFooter'
-
-
-
+import AllProjects from './Components/AllProjects'
 
 
 function App() {
-
-
   return (
    <>
     <Navbar />
@@ -25,15 +21,11 @@ function App() {
     <Education />
     <Skills />
     <Experience />
-    <Projects />
+    {/* <Projects /> */}
+    <AllProjects />
     <MyFooter />
 
-</>
-   
-
-
-      
-    
+</>   
   )
 }
 

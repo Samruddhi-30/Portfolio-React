@@ -1,6 +1,9 @@
 import React from "react";
 
 export default function MyFooter() {
+  const year = new Date().getFullYear();
+  console.log(year);
+
   return (
     <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
       
@@ -17,7 +20,7 @@ export default function MyFooter() {
           </svg>
         </a>
         <span className="mb-3 mb-md-0 text-body-secondary">
-          © 2025 Samruddhi Kadam
+          © {year} Samruddhi Kadam 
         </span>
       </div>
       <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">

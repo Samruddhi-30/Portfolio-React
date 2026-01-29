@@ -1,5 +1,6 @@
 import { Bold } from "lucide-react";
 import React from "react";
+import ProjectDetailed from "./projectDetailed";
 
 export default function Projects() {
   return (
@@ -13,25 +14,15 @@ export default function Projects() {
           borderRadius: "15px",
         }}
       >
-        <div className="col d-flex align-items-start">
-          <svg
-            className="bi text-body-secondary flex-shrink-0 me-3"
-            width="1.75em"
-            height="1.75em"
-            aria-hidden="true"
-          >
-            <use xlinkHref="#bootstrap"></use>
-          </svg>
-          <div>
-            <h3 className="fw-bold mb-0 fs-4 text-body-emphasis">WeatherScope</h3>
-            <p>
-              <strong><strong>Description:</strong></strong> A React app that fetches live
+      <ProjectDetailed 
+        title="WeatherScope"
+        description = {`A React app that fetches live 
               weather data based on city input using an external weather API.
-              Displays temperature, condition, and location dynamically.<strong> Tech
-              Used:</strong> node js , Express , REST API, JavaScript, CSS.
-            </p>
-          </div>
-        </div>
+              Displays temperature, condition, and location dynamically.`}
+          techStack = "node js , Express , REST API, JavaScript, CSS"
+          />
+
+
         <div className="col d-flex align-items-start">
           <svg
             className="bi text-body-secondary flex-shrink-0 me-3"
@@ -142,6 +133,8 @@ export default function Projects() {
 <strong>Tech Used:</strong> Python, BeautifulSoup, Pandas, CSV.</p> </div>
         </div>
       </div>
+          
     </div>
+
   );
 }
