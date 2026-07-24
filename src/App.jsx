@@ -1,32 +1,25 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
-//import './App.css'
-import Navbar from './Components/Navbar'
-import Intro from './Components/Intro'
-import Education from './Components/Education'
-import Skills from './Components/Skills'
-//import ModalTutorial from './Components/Modal'
-import Experience from './Components/Experience'
-import Projects from './Components/Projects'
-import MyFooter from './Components/MyFooter'
-import AllProjects from './Components/AllProjects'
+import React from "react";
+import Navbar from "./components/Navbar";
+import Intro from "./components/Intro";
+import Projects from "./components/Projects";
+import Skills from "./components/Skills";
+import Experience from "./components/Experience";
+import Education from "./components/Education";
+import Footer from "./components/MyFooter";
+import "./index.css";
 
-
-function App() {
+export default function App() {
   return (
-   <>
-    <Navbar />
-    <Intro />
-    <Education />
-    <Skills />
-    <Experience />
-    {/* <Projects /> */}
-    <AllProjects />
-    <MyFooter />
-
-</>   
-  )
+    <div style={{ backgroundColor: "#0B0D12", color: "#B8BCC8", minHeight: "100vh" }}>
+      <Navbar />
+      <main>
+        <Intro />
+        <Projects />
+        <Skills />
+        <Experience />
+        <Education />
+      </main>
+      <Footer />
+    </div>
+  );
 }
-
-export default App

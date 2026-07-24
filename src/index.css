@@ -122,67 +122,63 @@ body{
 
   */
 
-  body{
+  /* body{
     background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' version='1.1' xmlns:xlink='http://www.w3.org/1999/xlink' xmlns:svgjs='http://svgjs.dev/svgjs' width='1440' height='560' preserveAspectRatio='none' viewBox='0 0 1440 560'%3e%3cg mask='url(%26quot%3b%23SvgjsMask1217%26quot%3b)' fill='none'%3e%3cpath d='M599.93-2.55L587.47 0.38 581.87-11.13 569.4-8.2 563.8-19.71 551.34-16.78 545.74-28.3' stroke='%23e73635' stroke-width='1' stroke-dasharray='3%2c 2'%3e%3c/path%3e%3cpath d='M698.38 358.74L699.91 346.02 712.65 344.72 714.17 332.01 726.91 330.71 728.44 317.99 741.18 316.69' stroke='rgba(239%2c 205%2c 12%2c 1)' stroke-width='2.1' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3ccircle r='80.4920739754306' cx='1435.26' cy='295.71' stroke='%23e73635' stroke-width='1' stroke-dasharray='3%2c 2'%3e%3c/circle%3e%3ccircle r='46.666666666666664' cx='740.04' cy='279.88' fill='rgba(239%2c 205%2c 12%2c 1)'%3e%3c/circle%3e%3crect width='312' height='312' clip-path='url(%26quot%3b%23SvgjsClipPath1218%26quot%3b)' x='707.69' y='-136.86' fill='url(%26quot%3b%23SvgjsPattern1219%26quot%3b)' transform='rotate(125.33%2c 863.69%2c 19.14)'%3e%3c/rect%3e%3ccircle r='82.8307098482341' cx='748.15' cy='506.41' stroke='rgba(239%2c 205%2c 12%2c 1)' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/circle%3e%3crect width='207.72' height='207.72' clip-path='url(%26quot%3b%23SvgjsClipPath1220%26quot%3b)' x='1270.12' y='383.21' fill='url(%26quot%3b%23SvgjsPattern1221%26quot%3b)' transform='rotate(276.15%2c 1373.98%2c 487.07)'%3e%3c/rect%3e%3cpath d='M617.84 128.07 L652.6 237.65L694.6740179485762 123.4059820514239z' stroke='rgba(230%2c 212%2c 7%2c 1)' stroke-width='1.13' stroke-dasharray='2%2c 2'%3e%3c/path%3e%3cpath d='M1440.8700000000001 444.76 L1380.94 304.47999999999996L1346.7936092016905 438.7313907983097z' stroke='rgba(239%2c 205%2c 12%2c 1)' stroke-width='1' stroke-dasharray='4%2c 4'%3e%3c/path%3e%3cpath d='M38.64 402.97a5.6 5.6 0 1 0 1.47 11.1 5.6 5.6 0 1 0-1.47-11.1zM40.74 418.83a5.6 5.6 0 1 0 1.47 11.1 5.6 5.6 0 1 0-1.47-11.1zM42.84 434.69a5.6 5.6 0 1 0 1.47 11.1 5.6 5.6 0 1 0-1.47-11.1zM44.93 450.55a5.6 5.6 0 1 0 1.47 11.11 5.6 5.6 0 1 0-1.47-11.11z' fill='rgba(230%2c 212%2c 7%2c 1)'%3e%3c/path%3e%3crect width='204' height='204' clip-path='url(%26quot%3b%23SvgjsClipPath1222%26quot%3b)' x='994.22' y='137.42' fill='url(%26quot%3b%23SvgjsPattern1223%26quot%3b)' transform='rotate(295%2c 1096.22%2c 239.42)'%3e%3c/rect%3e%3crect width='252' height='252' clip-path='url(%26quot%3b%23SvgjsClipPath1224%26quot%3b)' x='399.45' y='372.04' fill='url(%26quot%3b%23SvgjsPattern1225%26quot%3b)' transform='rotate(211.65%2c 525.45%2c 498.04)'%3e%3c/rect%3e%3c/g%3e%3cdefs%3e%3cmask id='SvgjsMask1217'%3e%3crect width='1440' height='560' fill='white'%3e%3c/rect%3e%3c/mask%3e%3cpattern x='0' y='0' width='312' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1219'%3e%3crect width='312' height='3' x='0' y='0' fill='rgba(230%2c 212%2c 7%2c 1)'%3e%3c/rect%3e%3crect width='312' height='3' x='0' y='3' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1218'%3e%3ccircle r='78' cx='863.69' cy='19.14'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='207.72' height='11.54' patternUnits='userSpaceOnUse' id='SvgjsPattern1221'%3e%3crect width='207.72' height='5.77' x='0' y='0' fill='rgba(230%2c 212%2c 7%2c 1)'%3e%3c/rect%3e%3crect width='207.72' height='5.77' x='0' y='5.77' fill='rgba(0%2c 0%2c 0%2c 0)'%3e%3c/rect%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1220'%3e%3ccircle r='51.93' cx='1373.98' cy='487.07'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1223'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='rgba(230%2c 212%2c 7%2c 1)' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1222'%3e%3ccircle r='51' cx='1096.22' cy='239.42'%3e%3c/circle%3e%3c/clipPath%3e%3cpattern x='0' y='0' width='6' height='6' patternUnits='userSpaceOnUse' id='SvgjsPattern1225'%3e%3cpath d='M3 1L3 5M1 3L5 3' stroke='%23e73635' fill='none' stroke-width='1'%3e%3c/path%3e%3c/pattern%3e%3cclipPath id='SvgjsClipPath1224'%3e%3ccircle r='63' cx='525.45' cy='498.04'%3e%3c/circle%3e%3c/clipPath%3e%3c/defs%3e%3c/svg%3e");
-  }
+  } */
 
-/* Update your existing description class to be slightly darker and tighter */
-.hero-description {
-  font-size: 1.05rem; /* Slightly larger for readability */
-  color: #374151; /* Darker slate gray for better contrast */
-  margin-bottom: 2rem; /* More space before the buttons */
-  max-width: 580px;
-  line-height: 1.7; /* Gives the text some breathing room */
+/* Add to your main CSS file (e.g., index.css or App.css) */
+body {
+  background-color: #090a0f;
+  color: #e2e8f0;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
 }
 
-/* Make your bold words pop a bit more */
-.hero-description strong {
-  color: #111827;
-  font-weight: 600;
-}
-
-/* =========================================
-   NEW: Button Styles (The CTA Group)
-   ========================================= */
-.cta-group {
-  display: flex;
-  gap: 1rem;
-  margin-top: 1rem;
-}
-
-.btn {
-  display: inline-block;
-  padding: 0.75rem 1.5rem;
-  border-radius: 9999px; /* Pill shape */
-  font-weight: 600;
-  font-size: 0.95rem;
-  text-decoration: none;
-  transition: all 0.2s ease-in-out;
-  cursor: pointer;
-}
-
-/* Primary Button (Orange/Yellow to match your theme) */
-.btn-primary {
-  background-color: var(--accent-orange, #d97706);
+/* Fix floating resume action button */
+.resume-floating-btn {
+  position: fixed;
+  bottom: 2rem;
+  right: 2rem;
+  z-index: 1080;
+  background-color: #12141c;
+  border: 1px solid #2d3748;
   color: white;
-  box-shadow: 0 4px 6px -1px rgba(217, 119, 6, 0.2);
+  padding: 0.75rem 1rem;
+  border-radius: 9999px;
+  box-shadow: 0 10px 25px -5px rgba(0, 0, 0, 0.5);
+  backdrop-filter: blur(8px);
+  transition: all 0.2s ease;
 }
 
-.btn-primary:hover {
-  background-color: #b45309;
-  transform: translateY(-2px); /* Gentle lift effect */
-  box-shadow: 0 6px 8px -1px rgba(217, 119, 6, 0.3);
+.resume-floating-btn:hover {
+  border-color: #6366f1;
+  transform: translateY(-2px);
 }
 
-/* Secondary Button (Outline) */
-.btn-secondary {
-  background-color: transparent;
-  color: var(--text-dark, #1f2937);
-  border: 2px solid #e5e7eb;
+body {
+  background-color: #0B0D12;
+  color: #B8BCC8;
+  font-family: 'Inter', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  margin: 0;
 }
 
-.btn-secondary:hover {
-  border-color: var(--accent-orange, #d97706);
-  color: var(--accent-orange, #d97706);
-  background-color: #fffbeb; /* Very faint yellow background on hover */
+/* Custom scrollbar for dark mode */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #0B0D12;
+}
+::-webkit-scrollbar-thumb {
+  background: #2A2D37;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #6366F1;
+}
+
+.hover-white:hover {
+  color: #ffffff !important;
+  transition: color 0.2s ease;
 }
