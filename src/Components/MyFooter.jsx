@@ -2,44 +2,31 @@ import React from "react";
 
 export default function MyFooter() {
   const year = new Date().getFullYear();
-  console.log(year);
 
   return (
-    <footer className="d-flex flex-wrap justify-content-between align-items-center py-3 my-4 border-top">
-      
-      <div className="col-md-4 d-flex align-items-center">
+    <footer className="mt-auto" style={{ backgroundColor: "#fffdf5" }}>
+      <div className="container d-flex flex-wrap justify-content-between align-items-center py-4 border-top">
+        <div className="col-md-4 d-flex align-items-center">
+          <span className="text-secondary fw-medium">
+            © {year} Samruddhi Kadam
+          </span>
+        </div>
         
-        <a
-          href="/"
-          className="mb-3 me-2 mb-md-0 text-body-secondary text-decoration-none lh-1"
-          aria-label="Bootstrap"
-        >
-          
-          <svg className="bi" width="30" height="24" aria-hidden="true">
-            
-          </svg>
-        </a>
-        <span className="mb-3 mb-md-0 text-body-secondary">
-          © {year} Samruddhi Kadam 
-        </span>
+        <ul className="nav col-md-4 justify-content-end list-unstyled d-flex gap-3">
+          <li>
+            <a className="text-secondary" href="https://github.com/Samruddhi-30" target="_blank" rel="noreferrer" aria-label="GitHub">
+              {/* You can drop a Bootstrap GitHub SVG icon here */}
+              GitHub
+            </a>
+          </li>
+          <li>
+            <a className="text-secondary" href="https://www.linkedin.com/in/samruddhi-kadam-64a40b321" target="_blank" rel="noreferrer" aria-label="LinkedIn">
+              {/* You can drop a Bootstrap LinkedIn SVG icon here */}
+              LinkedIn
+            </a>
+          </li>
+        </ul>
       </div>
-      <ul className="nav col-md-4 justify-content-end list-unstyled d-flex">
-        
-        <li className="ms-3">
-          <a className="text-body-secondary" href="#" aria-label="Instagram">
-            <svg className="bi" width="24" height="24" aria-hidden="true">
-              <use xlinkHref="#instagram"></use>
-            </svg>
-          </a>
-        </li>
-        <li className="ms-3">
-          <a className="text-body-secondary" href="#" aria-label="Facebook">
-            <svg className="bi" width="24" height="24">
-              <use xlinkHref="#facebook"></use>
-            </svg>
-          </a>
-        </li>
-      </ul>
     </footer>
   );
 }

@@ -3,35 +3,26 @@ import DevModal from "./DevModal";
 
 export default function WebDev() {
   const [showModal, remModal] = useState(false);
+  
   const modalOperation = () => {
     remModal(!showModal);
   };
+
   return (
     <div className="col">
       <div
-        className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
-        style={{ backgroundColor: "#fcd357" , cursor:"pointer"}} onClick={modalOperation}
-      >
-        <div className="d-flex flex-column h-100 p-5 pb-3 text-white text-shadow-1">
-          <h3 className="pt-4 mt-2 mb-5 display-6 lh-1 fw-bold">
-            Web Development🌐
-          </h3>
-        </div>
-      
-      {/* <button
+        className="card h-100 rounded-4 shadow-sm border-0"
+        style={{ backgroundColor: "#fef3c7", cursor: "pointer", transition: "transform 0.2s" }} 
         onClick={modalOperation}
-        type="button"
-        className="btn btn-light"
-        style={{
-          margin: "10px",
-          padding: "10px",
-          width: "5pc",
-          height: "3pc",
-        }}
+        onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+        onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
       >
-        Click
-      </button> */}
-</div>
+        <div className="card-body d-flex align-items-center justify-content-center p-4 text-center">
+          <h4 className="fw-bold m-0" style={{ color: "#d35400" }}>
+            Web Development 🌐
+          </h4>
+        </div>
+      </div>
       {showModal && <DevModal oper={modalOperation} />}
     </div>
   );

@@ -1,21 +1,29 @@
+import React from "react";
 
-export default function ProjectDetailed(props){
-    return (
-        <div class="col d-flex align-items-start">
-            <svg 
-            class="bi text-body-secondary flex-shrink-0 me-3" width="1.75em" 
-            height="1.75em" aria-hidden="true">
-            <use xlink:href="#bootstrap"></use>
-            </svg>
-            <div>
-            <h3 class="fw-bold mb-0 fs-4 text-body-emphasis pb-2">
-                {props.title}
-            </h3>
-            <p>
-            <strong>Description: </strong> {props.description} </p>
-            <strong> Tech Used: </strong> {props.techStack}
-            
+export default function ProjectDetailed({ title, description, techStack, link }) {
+  return (
+    <div className="col">
+      <div className="card h-100 border-0 rounded-4 shadow-sm" style={{ backgroundColor: "#fffdf5", transition: "transform 0.2s" }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
+        <div className="card-body p-4 d-flex flex-column">
+          <h4 className="fw-bold mb-3" style={{ color: "#d35400" }}>
+            {title}
+          </h4>
+          <p className="card-text text-secondary mb-4 flex-grow-1" style={{ fontSize: "0.95rem", lineHeight: "1.6" }}>
+            {description}
+          </p>
+          <div className="mt-auto">
+            <div className="p-3 rounded-3" style={{ backgroundColor: "#fef8e6" }}>
+              <span className="fw-bold" style={{ color: "#2c3e50", fontSize: "0.85rem" }}>Tech Used: </span>
+              <span className="text-muted" style={{ fontSize: "0.85rem" }}>{techStack}</span>
             </div>
-            </div>
-    )
+            {link && (
+              <a href={link} target="_blank" rel="noreferrer" className="btn btn-sm mt-3 fw-bold" style={{ backgroundColor: "#d35400", color: "white", borderRadius: "8px" }}>
+                View Project
+              </a>
+            )}
+          </div>
+        </div>
+      </div>
+    </div>
+  );
 }

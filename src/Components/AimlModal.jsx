@@ -1,58 +1,46 @@
-import React , {useState} from 'react';
+import React from 'react';
 
-export default function AimlModal(props){
-    return(
-     <div
-      className=" modal modal-sheet d-block" //p-4 md-5 not needed but changes styling
-      //
-style={{  
- position: 'fixed',
- // top: '100px',
- // left: '420px',
- top: '50%',           // Center vertically
- left: '50%',          // Center horizontally
- transform: 'translate(-50%, -50%)',
- zIndex: 1050,
- overflowY : "hidden",
- height: 'auto',
- width: 'auto',
- backgroundColor:"#fff9c4",
- borderRadius:'10px'
-}}>       
-        <div class="modal-content rounded-4 shadow" style={{backgroundColor:"#fff9c4"}}>
-          
-          <div class="modal-header border-bottom-0" >
+export default function AimlModal(props) {
+  return (
+    <>
+      {/* Dark overlay backdrop */}
+      <div className="modal-backdrop fade show" onClick={() => props.cl(true)}></div>
+      
+      {/* Native Bootstrap Modal implementation */}
+      <div className="modal d-block" tabIndex="-1" role="dialog" onClick={() => props.cl(true)}>
+        <div className="modal-dialog modal-dialog-centered" role="document" onClick={(e) => e.stopPropagation()}>
+          <div className="modal-content border-0 shadow-lg rounded-4" style={{ backgroundColor: "#fffdf5" }}>
             
-            <h3 class="modal-title " style={{ color: "chocolate"}}>AI ML🤖</h3>
-            <button
-              type="button"
-              class="btn-close"
-              data-bs-dismiss="modal"
-              aria-label="Close"
-              onClick={()=>{
-                props.cl(true);
-              }}
-            ></button>
+            <div className="modal-header border-bottom-0 pb-0">
+              <h4 className="modal-title fw-bold" style={{ color: "#d35400" }}>AI ML 🤖</h4>
+              <button
+                type="button"
+                className="btn-close shadow-none"
+                aria-label="Close"
+                onClick={() => props.cl(true)}
+              ></button>
+            </div>
+            
+            <div className="modal-body pt-3 pb-4 px-4 text-secondary">
+              <ul className="mb-4" style={{ lineHeight: "1.8" }}>
+                <li>Python</li>
+                <li>ETL (Data Extract, Transform, Load)</li>
+                <li>Natural Language Processing</li>
+                <li>Scikit-learn</li>
+                <li>Tensorflow</li>
+                <li>Hugging Face</li>
+              </ul>
+              <hr style={{ opacity: 0.15 }} />
+              <div className="mt-3">
+                <p className="mb-2">🏆 AI ML Intern in work from office mode</p>
+                <p className="mb-2">🏆 Data Analyst Job Simulation by Accenture</p>
+                <p className="mb-0">🏆 Artificial Intelligence Job Simulation by Cognizant</p>
+              </div>
+            </div>
+
           </div>
-          <div class="modal-body py-0" style={{ color: "chocolate"}}>
-            <strong>
-            <ul>
-              <li>Python</li>
-              <li>ETL (Data Extract , Transform , Load)</li>
-              
-              <li>Natural Language Processing</li>
-              <li>Scikit-learn</li>
-              <li>Tensorflow</li>
-              <li>Hugging Face</li>
-            </ul>
-           <hr/>
-            <p> 🏆 AI ML Intern in work from office mode</p>
-            <p> 🏆 Data Analyst Job Simulation by Accenture</p>
-            <p> 🏆 Artificial Intelligence Job Simulation by Cognizant</p>
-              </strong>
-           </div>
         </div>
       </div>
-   
-    )
+    </>
+  );
 }

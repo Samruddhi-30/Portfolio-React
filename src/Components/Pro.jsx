@@ -1,43 +1,29 @@
-import React , {useState} from 'react'
+import React, { useState } from 'react';
 import LangModal from "./LangModal"; 
 
-export default function Pro(){
+export default function Pro() {
+  const [showModal, remModal] = useState(false);
+  
+  const modalOperation = () => {
+    remModal(!showModal);
+  };
 
-    const [showModal , remModal ] = useState(false);
-     const modalOperation = ()=>{
-           remModal(!showModal);
-            console.log(showModal);
-    }
-    return(
-        
-         <div className="col">
-          <div
-            className="card card-cover h-100 overflow-hidden rounded-4 shadow-lg"
-            style={{ backgroundColor: "#fcd357",cursor: "pointer"  }} onClick={modalOperation} 
-          >
-            <div className="d-flex flex-column h-80 p-3 pb-2 text-white text-shadow-1">
-              <h3 className="pt-4 mt-2 mb-5 display-6 lh-1 fw-bold">
-                Programming Languages 📝
-              </h3>
-            </div>
-            {/* <button
-              onClick={modalOperation}
-              type="button"
-              className="btn btn-light"
-              style={{
-                margin: "10px",
-                padding: "10px",
-                width: "5pc",
-                height: "3pc",
-              }}
-            >
-              Click
-            </button> */}
-          </div>
-           {showModal && <LangModal op={modalOperation} /> }
+  return (
+    <div className="col">
+      <div
+        className="card h-100 rounded-4 shadow-sm border-0"
+        style={{ backgroundColor: "#fef3c7", cursor: "pointer", transition: "transform 0.2s" }} 
+        onClick={modalOperation}
+        onMouseOver={(e) => e.currentTarget.style.transform = 'scale(1.03)'}
+        onMouseOut={(e) => e.currentTarget.style.transform = 'scale(1)'}
+      >
+        <div className="card-body d-flex align-items-center justify-content-center p-4 text-center">
+          <h4 className="fw-bold m-0" style={{ color: "#d35400" }}>
+            Programming Languages 📝
+          </h4>
         </div>
-       
-       
-
-    );
+      </div>
+      {showModal && <LangModal op={modalOperation} />}
+    </div>
+  );
 }
