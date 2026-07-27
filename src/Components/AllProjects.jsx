@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectDetailed from "./projectDetailed";
+import ProjectDetailed from "./ProjectDetailed";
 
 export default function AllProjects() {
   return (
