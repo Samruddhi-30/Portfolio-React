@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectDetailed from "./ProjectDetailed";
+import ProjectDetails from "./ProjectDetails";
 
 export default function AllProjects() {
   return (
@@ -9,22 +9,22 @@ export default function AllProjects() {
       </h2>
      
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
-        <ProjectDetailed 
+        <ProjectDetails 
           title="MentalWell (AI Mental Health Assistant)"
           description={`An AI-powered mental health chatbot providing empathetic support with emotion detection and sentiment analysis. Ensures complete privacy through local processing, encrypted storage, and federated learning.`}
           techStack={`Python, Machine Learning (NLP, emotion classification), Flask, encryption, transformer models.`} 
         />
-        <ProjectDetailed 
+        <ProjectDetails 
           title="Web Scraper-Product Price Tracker"
           description={`Automated e-commerce price monitoring tool that extracts real-time product data (title, price, availability) with 95%+ accuracy. Stores data in CSV format for historical trend analysis and price comparison.`} 
           techStack={`Python, BeautifulSoup, Pandas, CSV`}
         />
-        <ProjectDetailed 
+        <ProjectDetails 
           title="Full Stack Blog Platform"
           description={`A full-stack blogging platform where users can register, log in, create, edit, and delete posts with secure authentication and database integration.`}
           techStack={`Django, Python, SQLite, HTML, CSS, Bootstrap`}
         />
-        <ProjectDetailed
+        <ProjectDetails
           title="WeatherScope"
           description={`A React app that fetches live weather data based on city input using an external weather API. Displays temperature, condition, and location dynamically.`}
           techStack={`Node.js, Express, REST API, JavaScript, CSS`}

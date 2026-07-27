@@ -1,13 +1,13 @@
 import React from "react";
 
-export default function ProjectDetailed({ title, description, techStack, link }) {
+export default function ProjectDetails({ title, description, techStack, link }) {
   return (
     <div className="col">
       <div className="card h-100 border-0 rounded-4 shadow-sm" style={{ backgroundColor: "#fffdf5", transition: "transform 0.2s" }} onMouseOver={(e) => e.currentTarget.style.transform = 'translateY(-5px)'} onMouseOut={(e) => e.currentTarget.style.transform = 'translateY(0)'}>
         <div className="card-body p-4 d-flex flex-column">
           <h4 className="fw-bold mb-3" style={{ color: "#d35400" }}>
             {title}
-          </h4>
+          </h4>  
           <p className="card-text text-secondary mb-4 flex-grow-1" style={{ fontSize: "0.95rem", lineHeight: "1.6" }}>
             {description}
           </p>

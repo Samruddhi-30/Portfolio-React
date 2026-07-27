@@ -1,5 +1,5 @@
 import React from "react";
-import ProjectDetailed from "./ProjectDetailed";
+import ProjectDetails from "./ProjectDetails";
 
 export default function Projects() {
   const projectList = [
@@ -35,7 +35,7 @@ export default function Projects() {
       </h2>
       <div className="row row-cols-1 row-cols-md-2 row-cols-lg-2 g-4">
         {projectList.map((proj, index) => (
-          <ProjectDetailed 
+          <ProjectDetails 
             key={index}
             title={proj.title}
             description={proj.description}
